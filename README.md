@@ -1,13 +1,13 @@
 # Terms related to Git
-* Git : 분산 버전 관리 시스템
-* Git Hub : 깃으로 관리하는 프로젝트를 올려 둘 수 있는 사이트
-* Local Repository : git init 명령어로 생성되는 디렉토리를 말한다.
-* Remote Repository : 로컬 저장소를 upload하는 곳. GitHub.
-* Working Tree : 작업 디렉토리
+* Git : Distributed Version Management System.
+* Git Hub : Sites where you can upload projects that you manage with git.
+* Local repository : It refers to a directory created by the git init command.
+* Remote repository : Where to upload the local repository. GitHub.
+* Working tree : Working Directory.   
 
 
 # Upload to Git
-You perform these tasks in the __local repository__.
+You perform these tasks in the __local repository__.   
 
 ## 0. Git initial settings
 You only have to do this once.
@@ -46,6 +46,7 @@ git pull [repository nickname] [branch name]
 Replicate from remote repository (download).
 ```
 git clone [remote repository address]
+```
 
 ## 5. Confirm Proccess
 ```
